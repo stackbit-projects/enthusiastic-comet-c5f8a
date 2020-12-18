@@ -1,0 +1,19 @@
+permalink: '/:year:month:day/:title'
+url: ''
+baseurl: ''
+name: Your Site Name
+description: Your description here
+google_verification: null
+include:
+  - .htaccess
+exclude:
+  - README.md
+  - LICENSE
+sass:
+  style: ':compressed'
+  sass_dir: _sass
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
